@@ -2,7 +2,7 @@ name: CI
 on:
   push:
     tags: [ "v*", "*/v*" ]
-    branches: [ master, main ]
+    branches: [ ci-460-all-os ]
   pull_request:
 
 permissions:
